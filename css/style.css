@@ -94,7 +94,7 @@ nav a:hover{
 
 }
 
-h1{
+h2{
   font-size: 60px;
   position: relative;
   text-align: center;
@@ -155,7 +155,7 @@ hr{
   transform: translateY(-50%);
   top: 50%;
   right:0;
-position: fixed;
+  position: fixed;
   border-radius: 4px;
   margin-right: 10px;
   margin-left: 5px;
@@ -204,4 +204,233 @@ position: fixed;
   font-size: 15px
 }
 
+.cuarta{
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+}
 
+.cuarta .imagenes{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.imagenes img{
+  height: 452px;
+  width: 350px;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.imagenes img:hover {
+  filter: grayscale(0%);
+}
+
+.quinta .partetriangulos{
+  background-image: url(/img/poligonos.jpg);
+  background-position: center -5%;
+  background-repeat: no-repeat;
+  background-size: 150%;
+  display: flex;
+  flex-direction: column;
+  text-align: center; 
+  height: 452px;
+}
+
+hr{
+  height: 75px;
+}
+
+h1{
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: #171b24;
+}
+
+.partetriangulos p{
+  color: #747474;
+  font-size: 17px;
+}
+
+.partetriangulos button{
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  background-color: #00c2e5;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.partetriangulos button:hover{
+  background-color: #007bff;
+}
+
+.final{
+  display: flex;
+  height: 452px;
+  padding: 40px 0px;
+  justify-content: space-around;
+  background-color: #232429;
+}
+
+.final .parte_1{
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 250px;
+}
+
+h5{
+  padding: 8px 0px;
+  color: white;
+  font-weight: bold;
+}
+
+.parte_1 .finalparrafo p{
+  color: gray;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+.parte_1 .contacto p{
+  color: white;
+  font-weight: bold;
+  padding: 5px 0px;
+  font-size: 12px;
+}
+
+.listalogos ul{
+  margin-top: 12px;
+  display: flex;
+  gap: 5px;
+}
+
+.parte_1 .listalogos li{
+  list-style: none;
+}
+
+.listalogos a{
+  color: #a2a4a4;
+} 
+
+.listalogos i{
+  border: 2px solid #2d2e32;
+  padding: 5px ;
+  border-radius: 8px;
+  background-color: #2d2e32;
+  transition: background-color 0.5s ease;
+}
+.listalogos i:hover{
+  background-color: #007bff;
+}
+
+.final .parte_2{
+  margin-top: 34px;
+  gap: 4px;
+  width: 250px;
+  height: 250px;
+}
+
+.parte_2 .centrado{
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  flex: 1;
+  border-bottom: 1px solid #27282d;
+}
+
+.parte_2 img{
+  width: 80px;
+  height: 60px;
+  object-fit: cover;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  border-radius: 3px;
+}
+
+.titulo{
+  font-size: 12px;
+  color: #e9e9e9;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+.fecha{
+  font-size: 10px;
+  color:#a2a4a4 ;
+}
+
+.parte_3{
+  margin-top: 34px ;
+}
+
+.parte_4{
+  margin-top: 34px;
+}
+
+.marco{
+  border: 5px solid #303137;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 10px;
+  width: 280px;
+}
+
+.texto{
+  font-size: 12px;
+  color: gray;
+  padding: 10px 0px;
+}
+
+.input{
+  border: 3px solid #303137;
+  background-color: #232429;
+  padding: 10px 5px;
+  margin: 10px 0px;
+}
+.boton{
+  color: white;
+  background-color: #00c2e5;
+  padding: 10px 0px;
+  border:none;
+  transition: background-color 0.5s ease;
+}
+
+.boton:hover{
+    background-color: #007bff;
+}
+
+.site-footer {
+  background-color: #1f1f1f; /* fondo oscuro */
+  color: #aaa;               /* texto gris claro */
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  flex: 1;
+}
+
+.footer-right a {
+  color: #aaa;
+  text-decoration: none;
+  margin: 0 6px;
+}
+
+.footer-right a:hover {
+  color: #00bcd4; /* azul clarito al pasar el mouse */
+}
+
+.footer-right .dot {
+  color: #00bcd4;
+  font-size: 14px;
+}
